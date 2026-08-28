@@ -1,0 +1,23 @@
+{
+  "name": "gestao-escolar-prisma-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "generate": "prisma generate",
+    "introspect": "prisma db pull",
+    "migrate": "prisma migrate dev",
+    "demo": "tsx src/demo.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
