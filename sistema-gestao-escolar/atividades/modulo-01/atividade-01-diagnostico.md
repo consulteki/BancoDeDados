@@ -75,7 +75,7 @@ Explique por que seria inadequado:
 
 ## Entrega
 
-Crie:
+
 
 ```text
 Crie um documento norteador para nos guiar no projeto
