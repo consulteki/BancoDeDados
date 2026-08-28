@@ -71,6 +71,14 @@ A trilha complementar pode ser oferecida como projeto de extensão, oficina, ati
 - [Módulo 8 — Consultas SQL básicas](modulo-08-consultas-sql/README.md)
 - [Módulo 9 — Junções, agregações e relatórios escolares](modulo-09-joins-agregacoes/README.md)
 - [Módulo 10 — Índices, desempenho e planos de execução](modulo-10-indices-desempenho/README.md)
+- [Módulo 11 — Transações, concorrência e integridade](modulo-11-transacoes-concorrencia/README.md)
+- [Módulo 12 — CRUD com Vanilla JavaScript](modulo-12-vanilla-javascript/README.md)
+- [Módulo 13 — Node.js, Express e acesso seguro ao MySQL](modulo-13-node-express-mysql/README.md)
+- [Módulo 14 — Sequelize, migrations e persistência](modulo-14-sequelize/README.md)
+- [Módulo 15 — Integração, revisão e considerações finais](modulo-15-integracao-conclusao/README.md)
+- [Módulo 16 — Prisma e arquitetura moderna de persistência](modulo-16-prisma-comparativo/README.md)
+- [Módulo 17 — Qualidade, segurança e operação profissional](modulo-17-qualidade-operacao/README.md)
+- [Módulo 18 — Projeto profissional e portfólio](modulo-18-projeto-profissional/README.md)
 
 ## Estrutura de cada módulo
 
