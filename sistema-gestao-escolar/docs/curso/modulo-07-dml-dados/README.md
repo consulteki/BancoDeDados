@@ -144,6 +144,26 @@ Sempre que uma extensão do MySQL for útil, ela será identificada.
 4. Resolva a [Atividade 07](../../../atividades/modulo-07/atividade-07-dml.md).
 5. Só depois compare sua solução com o gabarito.
 
+## 10. Entrega com Git
+
+Partindo da raiz do repositório:
+
+```bash
+git switch main
+git pull origin main
+git switch -c atividade/modulo-07-seu-nome
+
+# edite sua solução e confira antes de registrar
+git status
+git diff
+
+git add sistema-gestao-escolar/atividades/modulo-07/
+git commit -m "docs: conclui atividade do modulo 07"
+git push -u origin atividade/modulo-07-seu-nome
+```
+
+No GitHub, abra um Pull Request para `main`. Descreva os comandos executados, o resultado das verificações e qualquer decisão de portabilidade. Não inclua senhas, dados pessoais ou arquivos locais de configuração.
+
 ## Checklist
 
 - [ ] Executei os scripts na ordem correta.
