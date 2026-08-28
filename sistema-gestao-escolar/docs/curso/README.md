@@ -4,8 +4,9 @@
 
 O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** para integrar modelagem, SQL, MySQL, Vanilla JavaScript, Node.js, Sequelize e Prisma.
 
-- Carga horária: 60 horas
-- Organização: 15 encontros de 4 horas
+- Carga horária da formação principal: 60 horas
+- Organização principal: 15 encontros de 4 horas
+- Trilha complementar sugerida: 3 módulos adicionais, com 12 horas
 - SGBD: MySQL Community
 - Ferramenta administrativa: MySQL Workbench
 - Linguagem SQL: construções ANSI sempre que possível
@@ -13,7 +14,15 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 - ORM principal: Sequelize
 - ORM comparativo: Prisma
 
-## Trilha de aprendizagem
+## Organização do percurso
+
+Os módulos 1 a 15 constituem a formação principal de 60 horas. O Módulo 15 encerra formalmente esse percurso com integração, revisão e considerações finais.
+
+Os módulos 16 a 18 formam a **Trilha Complementar de Aprofundamento e Projeto Profissional**: conteúdos adicionais orientados à aplicação integrada dos conhecimentos em um projeto com arquitetura, ferramentas e práticas contemporâneas adotadas no mercado de trabalho.
+
+A trilha complementar pode ser oferecida como projeto de extensão, oficina, atividade extraclasse, desafio de portfólio ou preparação para estágio e primeiro emprego. Ela não integra as 60 horas obrigatórias.
+
+## Formação principal — 60 horas
 
 | Módulo | Tema | Produto principal |
 |---:|---|---|
@@ -26,12 +35,29 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 | 7 | DML | Dados consistentes de teste |
 | 8 | Consultas SQL | Consultas básicas |
 | 9 | Junções e agregações | Relatórios escolares |
-| 10 | Integridade e transações | Matrícula transacional |
-| 11 | Vanilla JavaScript | CRUD com dados simulados |
-| 12 | Node.js, Express e HTTP | API REST inicial |
-| 13 | Sequelize | Persistência principal |
-| 14 | Prisma e integração | Laboratório comparativo |
-| 15 | Projeto final | Sistema integrado e apresentação |
+| 10 | Índices, desempenho e planos de execução | Experimento com EXPLAIN |
+| 11 | Transações, concorrência e integridade | Matrícula transacional |
+| 12 | Vanilla JavaScript | CRUD com dados simulados |
+| 13 | Node.js, Express, HTTP e acesso seguro ao MySQL | API REST inicial |
+| 14 | Sequelize, migrations e persistência | API integrada ao banco |
+| 15 | Integração, revisão e considerações finais | Síntese da formação de 60 horas |
+
+## Trilha Complementar de Aprofundamento e Projeto Profissional
+
+| Módulo | Tema | Produto profissional |
+|---:|---|---|
+| 16 | Prisma e arquitetura moderna de persistência | Comparação Sequelize × Prisma |
+| 17 | Qualidade, segurança e operação profissional | Testes, Docker, OpenAPI, backup e observabilidade |
+| 18 | Projeto profissional e portfólio | Sistema documentado, reproduzível e demonstrável |
+
+### Finalidade dos módulos complementares
+
+- aproximar o protótipo didático de um produto de software;
+- apresentar ferramentas e práticas atuais do mercado;
+- fortalecer portfólio e empregabilidade;
+- desenvolver autonomia para avaliar tecnologias;
+- consolidar documentação, testes, segurança e operação;
+- preparar uma demonstração técnica profissional.
 
 ## Módulos publicados
 
@@ -44,6 +70,7 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 - [Módulo 7 — Manipulação de dados com DML](modulo-07-dml-dados/README.md)
 - [Módulo 8 — Consultas SQL básicas](modulo-08-consultas-sql/README.md)
 - [Módulo 9 — Junções, agregações e relatórios escolares](modulo-09-joins-agregacoes/README.md)
+- [Módulo 10 — Índices, desempenho e planos de execução](modulo-10-indices-desempenho/README.md)
 
 ## Estrutura de cada módulo
 
@@ -73,6 +100,7 @@ Cada módulo apresenta:
 - `atividades/`: enunciados entregáveis.
 - `src/frontend/`: HTML, CSS e Vanilla JavaScript.
 - `src/backend/`: Node.js, Express e ORMs.
+- `tests/`: testes introduzidos na etapa de profissionalização.
 
 ## Fluxo recomendado para o estudante
 
@@ -120,3 +148,5 @@ Um módulo é considerado concluído quando o estudante:
 - conferiu o checklist;
 - realizou o commit;
 - submeteu a entrega para revisão.
+
+A conclusão do Módulo 15 certifica pedagogicamente o encerramento da formação principal. Os módulos 16 a 18 representam continuidade opcional orientada à profissionalização e à construção de portfólio.
