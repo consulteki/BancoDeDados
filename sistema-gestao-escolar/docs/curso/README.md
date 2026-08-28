@@ -42,6 +42,7 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 - [Módulo 5 — Normalização, dependências funcionais e anomalias](modulo-05-normalizacao/README.md)
 - [Módulo 6 — DDL e construção física no MySQL](modulo-06-ddl-mysql/README.md)
 - [Módulo 7 — Manipulação de dados com DML](modulo-07-dml-dados/README.md)
+- [Módulo 8 — Consultas SQL básicas](modulo-08-consultas-sql/README.md)
 
 ## Estrutura de cada módulo
 
