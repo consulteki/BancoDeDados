@@ -33,6 +33,11 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 | 14 | Prisma e integração | Laboratório comparativo |
 | 15 | Projeto final | Sistema integrado e apresentação |
 
+## Módulos publicados
+
+- [Módulo 1 — Fundamentos e análise do domínio](modulo-01-fundamentos/README.md)
+- [Módulo 2 — Entidades, atributos, identificadores e regras](modulo-02-entidades-atributos/README.md)
+
 ## Estrutura de cada módulo
 
 Cada módulo apresenta:
