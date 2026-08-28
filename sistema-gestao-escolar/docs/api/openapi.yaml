@@ -1,0 +1,82 @@
+openapi: 3.1.0
+info:
+  title: API do Sistema de Gestão Escolar
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /health:
+    get:
+      summary: Verifica a API e o banco
+      responses:
+        "200":
+          description: Serviço saudável
+  /alunos:
+    get:
+      summary: Lista alunos
+      parameters:
+        - in: query
+          name: q
+          schema: { type: string, maxLength: 100 }
+      responses:
+        "200":
+          description: Lista de alunos
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: "#/components/schemas/Aluno" }
+    post:
+      summary: Cadastra aluno
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/AlunoEntrada" }
+      responses:
+        "201": { description: Criado }
+        "409": { description: Conflito }
+        "422": { description: Entrada inválida }
+  /alunos/{id}:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema: { type: integer, format: int64 }
+    get:
+      summary: Detalha aluno
+      responses:
+        "200": { description: Encontrado }
+        "404": { description: Não encontrado }
+    put:
+      summary: Substitui aluno
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/AlunoEntrada" }
+      responses:
+        "200": { description: Atualizado }
+        "404": { description: Não encontrado }
+    delete:
+      summary: Exclui aluno sem histórico
+      responses:
+        "204": { description: Excluído }
+        "409": { description: Possui relacionamentos }
+components:
+  schemas:
+    AlunoEntrada:
+      type: object
+      required: [matricula, nome]
+      properties:
+        matricula: { type: string, maxLength: 30 }
+        nome: { type: string, minLength: 2, maxLength: 150 }
+        nome_social: { type: [string, "null"], maxLength: 150 }
+        email: { type: [string, "null"], format: email }
+        situacao: { type: string, enum: [ATIVO, INATIVO], default: ATIVO }
+    Aluno:
+      allOf:
+        - type: object
+          properties:
+            id_aluno: { type: integer, format: int64 }
+        - $ref: "#/components/schemas/AlunoEntrada"
