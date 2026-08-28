@@ -1,4 +1,4 @@
-# Atividade 01 — Diagnóstico do domínio escolar
+# Atividade 01 - Diagnóstico do domínio escolar
 
 ## Contexto
 
@@ -10,13 +10,13 @@ Produzir um diagnóstico inicial do domínio antes da criação do banco de dado
 
 ## Orientações
 
-1. Leia o Módulo 1.
-2. Não crie tabelas nesta atividade.
-3. Descreva o problema em termos do funcionamento da escola.
-4. Diferencie necessidade do usuário e solução técnica.
-5. Registre dúvidas quando uma regra não estiver clara.
 
-## Parte A — Conceitos
+1. Não crie tabelas nesta atividade.
+2. Descreva o problema em termos do funcionamento da escola.
+3. Diferencie necessidade do usuário e solução técnica.
+4. Registre dúvidas quando uma regra não estiver clara.
+
+## Parte A - Conceitos
 
 Responda com suas palavras:
 
@@ -28,14 +28,14 @@ Responda com suas palavras:
 6. Por que persistência é importante?
 7. O que pode acontecer quando dados são repetidos sem controle?
 
-## Parte B — Atores
+## Parte B - Atores
 
 Identifique pelo menos quatro atores. Para cada um, informe:
 
 | Ator | Responsabilidade | Dados consultados | Dados alterados |
 |---|---|---|---|
 
-## Parte C — Requisitos
+## Parte C - Requisitos
 
 Escreva:
 
@@ -53,7 +53,7 @@ RN01 — ...
 DV01 — ...
 ```
 
-## Parte D — Cenário de matrícula
+## Parte D - Cenário de matrícula
 
 Descreva o fluxo de matrícula desde a identificação do aluno até a confirmação. Indique:
 
@@ -63,7 +63,7 @@ Descreva o fluxo de matrícula desde a identificação do aluno até a confirma�
 - situações de erro;
 - dados que precisam ser persistidos.
 
-## Parte E — Reflexão
+## Parte E - Reflexão
 
 Explique por que seria inadequado:
 
@@ -78,7 +78,7 @@ Explique por que seria inadequado:
 Crie:
 
 ```text
-sistema-gestao-escolar/atividades/modulo-01/resposta-seu-nome.md
+Crie um documento norteador para nos guiar no projeto
 ```
 
 Inclua identificação, respostas e conclusão. Depois:
