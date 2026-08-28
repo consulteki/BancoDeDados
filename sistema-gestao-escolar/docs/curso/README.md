@@ -39,6 +39,7 @@ O curso utiliza a construção incremental de um **Sistema de Gestão Escolar** 
 - [Módulo 2 — Entidades, atributos, identificadores e regras](modulo-02-entidades-atributos/README.md)
 - [Módulo 3 — Modelo Entidade-Relacionamento e cardinalidades](modulo-03-modelo-entidade-relacionamento/README.md)
 - [Módulo 4 — Modelo relacional e mapeamento do MER](modulo-04-modelo-relacional/README.md)
+- [Módulo 5 — Normalização, dependências funcionais e anomalias](modulo-05-normalizacao/README.md)
 
 ## Estrutura de cada módulo
 
